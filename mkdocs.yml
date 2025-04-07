@@ -7,7 +7,6 @@ theme:
     primary: blue
     accent: light blue
   features:
-    - navigation.tabs
     - navigation.sections
     - navigation.path
     - navigation.top
@@ -20,5 +19,8 @@ nav:
   - Home: index.md
   - Design Tokens: tokens.md
   - Responsive Guidelines: responsive-guidelines.md
-  - Components:
-      - Overview: components/index.md
+  - Components: ui/components.md
+  - UI:
+      - Design: ui/design.md
+      - Styles: ui/styles.md
+      - Tokens: ui/tokens.md

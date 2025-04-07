@@ -28,17 +28,26 @@ SC provides a unified visual language and component library for all StellantAI p
 
 ```
 sc/
-├── ui-system/              # Tokens, themes, and reusable components
-│   ├── tokens/             # JSON and SCSS-based design tokens
-│   ├── components/         # Vanilla JS wrappers and styling
-│   └── styles/             # Global styles, SC theme, layout utilities
-├── docs/                   # Markdown docs for MkDocs site
-│   ├── index.md
-│   ├── tokens.md
-│   ├── responsive-guidelines.md
-│   └── components/
-├── mkdocs.yml              # Documentation site configuration
-└── README.md
+├── .github/               # GitHub configuration
+│   └── workflows/         # GitHub Actions workflows
+│       └── main.yml       # Workflow for deploying MkDocs
+├── docs/                  # Markdown docs for MkDocs site
+│   ├── index.md           # Home page
+│   ├── tokens.md          # Design tokens documentation
+│   ├── responsive-guidelines.md # Responsive design guidelines
+│   ├── assets/            # Assets for documentation
+│   │   └── layouts.png    # Layout examples image
+│   └── ui/                # UI components and styles
+│       ├── index.md       # UI components overview
+│       ├── tokens/        # Design tokens
+│       ├── styles/        # Stylesheets
+│       │   └── scss/      # SCSS files
+│       └── design/        # Design resources
+│           └── StellantAI-UI Kit - Bootstrap 5.3.fig # Figma design file
+├── mkdocs.yml             # Documentation site configuration
+├── requirements.txt       # Python dependencies
+├── .gitignore             # Git ignore file
+└── README.md              # Project README
 ```
 
 ---
