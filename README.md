@@ -3,30 +3,30 @@
 **SC** (StellantAI Components) is the official UI design system developed by [StellantAI](https://stellantai.org) for building responsive, AI-native enterprise SaaS applications.
 
 SC is a flexible, modular design system built using:
-- ⚙️ **Vanilla JavaScript** and **Syncfusion EJ2** components
-- 🎨 **Material UI-inspired** theme
-- 📐 Responsive layouts for web, mobile, tablet with **Bootstrap 5.3 utility classes**
-- 🧠 Forward-compatible with **AI-augmented** and **in-app UI generation**
+- **Vanilla JavaScript** components
+- **Material UI-inspired** theme
+- Responsive layouts for web, mobile, tablet with **Bootstrap v5.3 utility classes**
+- Forward-compatible with **AI-augmented** and **in-app UI generation**
 - Chat UI layouts 
 - App dashboard layouts
 - Centralized UI resources: components, theme, styles, design, design tokens and CSS
 
 ---
 
-## 🌟 Purpose
+## Purpose
 
 SC provides a unified visual language and component library for all StellantAI products, starting with our Clinical Quality Management SaaS solution. It is designed to work across:
 
 - 💻 Web (Desktop)
 - 📱 Mobile
 - 📲 Tablet
-- 🧠 AI-driven chat and in-app UI builders
+-  AI-driven chat and in-app UI builders
 
 ---
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 sc/
 ├── ui-system/              # Tokens, themes, and reusable components
 │   ├── tokens/             # JSON and SCSS-based design tokens
@@ -39,16 +39,16 @@ sc/
 │   └── components/
 ├── mkdocs.yml              # Documentation site configuration
 └── README.md
-\`\`\`
+```
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ **Responsive-first grid system** (12-column layout at 1440px with 1280px content width)
-- 🎨 **Design tokens** for color, typography, spacing (JSON + SCSS)
-- 🧩 **Syncfusion EJ2 Vanilla JS components** with SC theme styling.  Syncfusion is a licensed product. This project includes references to syncfusion CDN and node_modules, but no license is to syncfusion is implied or offered.   Please contact syncfusion for licensing questions at:  [https://ej2.syncfusion.com/documentation/introduction](https://ej2.syncfusion.com/documentation/introduction)
-- 🧠 **AI agent-compatible UI** via structured metadata
+-  **Responsive-first grid system** (12-column layout at 1440px with 1280px content width)
+-  **Design tokens** for color, typography, spacing (JSON + SCSS)
+-  **Syncfusion EJ2 Vanilla JS components** with SC theme styling.  Syncfusion is a licensed product. This project includes references to syncfusion CDN and node_modules, but no license is to syncfusion is implied or offered.   Please contact syncfusion for licensing questions at:  [https://ej2.syncfusion.com/documentation/introduction](https://ej2.syncfusion.com/documentation/introduction)
+-  **AI agent-compatible UI** via structured metadata
 - ✨ **Styled using Figma + Syncfusion UI kits** for designer-developer collaboration
 
 ---
@@ -70,16 +70,16 @@ See the full responsive guide in [`docs/responsive-guidelines.md`](./docs/respon
 SC uses [MkDocs](https://www.mkdocs.org/) with the [Material for MkDocs theme](https://squidfunk.github.io/mkdocs-material/) for documentation.
 
 📖 Access docs locally:
-\`\`\`bash
+```bash
 pip install mkdocs-material
 mkdocs serve
-\`\`\`
+```
 
 ---
 
-## 🎨 Figma Kits
+##  Figma UI Design Kits | Design System | Design Tokens
 
-SC is designed using Syncfusion's [Material 3 Figma UI kits](https://ej2.syncfusion.com/documentation/appearance/figma/), extended with StellantAI brand tokens and components. Designers should sync their libraries via Figma team assets.
+SC is designed using Syncfusion's [Figma UI kits](https://ej2.syncfusion.com/documentation/appearance/figma/), extended with StellantAI branded design tokens and components which are posted here.  Developers and Designers should sync their design libraries, themes, design tokens and styles with the info in this repo.
 
 ---
 
@@ -100,7 +100,9 @@ Contributions from designers, developers, and UX engineers are welcome! Please r
 
 ## 📄 License
 
-MIT License © 2025 StellantAI. See `LICENSE` for full terms.
+StellantAI brand and TM is © 2025 StellantAI.  Syncfusion and any other brands are the respective property of their owners.
+
+Syncfusion is a licensed product.  See their `LICENSE` for full terms.
 
 ---
 
@@ -108,3 +110,7 @@ MIT License © 2025 StellantAI. See `LICENSE` for full terms.
 
 - GitHub: [github.com/StellantAI/sc](https://github.com/StellantAI/sc)
 - Org Site: [stellantai.org](https://stellantai.org) *(coming soon)*
+- [Bootstrap and Material Figma UI kits](https://ej2.syncfusion.com/documentation/appearance/figma/)
+
+-[Figma UI kit for Syncfusion - Bootstrap 5 Theme]
+(https://www.figma.com/community/file/1385968977953858272)
