@@ -9,4 +9,4 @@ nav:
   - Design Tokens: tokens.md
   - Responsive Guidelines: responsive-guidelines.md
   - Components:
-    - Overview: components/index.md 
+      - Overview: components/index.md
