@@ -1,6 +1,6 @@
 # SC Design System
 
-**SC** (Stellant Components) is the official UI design system developed by [StellantAI](https://stellantai.org) for building responsive, AI-native enterprise SaaS applications.
+**SC** (StellantAI Components) is the official UI design system developed by [StellantAI](https://stellantai.org) for building responsive, AI-native enterprise SaaS applications.
 
 SC is a flexible, modular design system built using:
 - ⚙️ **Vanilla JavaScript** and **Syncfusion EJ2** components
