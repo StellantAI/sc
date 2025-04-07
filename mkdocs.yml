@@ -3,6 +3,18 @@ site_url: https://stellantai.github.io/sc/
 
 theme:
   name: material
+  palette:
+    primary: blue
+    accent: light blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.follow
+    - content.code.copy
 
 nav:
   - Home: index.md
