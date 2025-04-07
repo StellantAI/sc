@@ -7,11 +7,18 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v4
         with:
           python-version: '3.x'
@@ -21,4 +28,7 @@ jobs:
           pip install -r requirements.txt
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
-        run: mkdocs gh-deploy --force 
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          mkdocs gh-deploy --force 
