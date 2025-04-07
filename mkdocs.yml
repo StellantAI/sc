@@ -1,47 +1,8 @@
-site_name: StellantAI SC Design System
-site_description: Stellant Components - UI Design System for AI-native Enterprise SaaS
-site_author: StellantAI
-site_url: https://stellantai.github.io/sc
+site_name: SC Design System
+site_url: https://stellantai.github.io/sc/
 
 theme:
   name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.expand
-    - navigation.top
-    - search.highlight
-    - search.suggest
-    - search.share
-    - toc.integrate
-    - content.tabs.link
-    - content.code.annotate
-    - content.code.copy
-    - content.action.edit
-
-plugins:
-  - search
-  - git-revision-date-localized
-  - git-authors
-  - mermaid2
-  - minify
-  - redirects
-  - section-index
-  - simple-hooks
-  - toc-sidebar
-
-markdown_extensions:
-  - pymdownx.highlight
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.tasklist
-  - pymdownx.tilde
-  - pymdownx.emoji
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - tables
 
 nav:
   - Home: index.md
